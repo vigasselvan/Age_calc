@@ -1,0 +1,50 @@
+body{
+    padding: 30px;
+    font-family: 'Sacramento', cursive;
+}
+label{
+    font-size: x-large;
+    font-weight: 600;
+    color: #A9A9A9;
+    display: block; 
+}
+input{
+    padding:20px;
+    font-size: 30px;
+    border: solid #ccc;
+    width: 80%;   
+    border-radius: 5px;
+}
+
+.formsDetail{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 10px 50px;
+}
+
+.hrStyle{
+    margin-top: 75px;
+    color: #ccc;
+}
+
+
+button{
+    background-color: hsl(259, 100%, 65%); 
+    padding:30px 40px;
+    border: 0px;
+    border-radius: 50%;
+    cursor: pointer;
+    position: absolute;
+    top: 215px;
+    right: 120px;
+}
+
+.output{
+    display: block;
+    font-size: 45px;
+    padding-top: 25px;
+    margin: 10px;
+}
+
+
