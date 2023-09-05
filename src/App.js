@@ -2,7 +2,6 @@ import React, { useState, useRef } from 'react';
 import Year from './components/Year';
 import Months from './components/Months';
 import Days from './components/Days';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 function App() {
   const yrRef = useRef(null);
@@ -26,6 +25,8 @@ function App() {
       />
     );
   };
+
+
   //change the code below to change the look of input statements.
   return (
     <div>
@@ -43,7 +44,7 @@ function App() {
         <input type="text" id='yearVal' ref={yrRef} placeholder="Year" />
       </div>
 
-      <button onClick={handleClick}> <FontAwesomeIcon icon="fa-solid fa-angle-down fa-5x" style={{color: "#ffffff",}} /> </button>
+      <button onClick={handleClick}> </button>
     </div>
     <hr className='hrStyle'></hr>
     <div className='output'>
